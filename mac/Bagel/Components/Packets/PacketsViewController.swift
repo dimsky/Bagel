@@ -177,7 +177,7 @@ extension PacketsViewController {
     
     func isScrolledToBottom() -> Bool {
         
-        if self.tableView.enclosingScrollView?.verticalScroller?.floatValue ?? 0 > 0.9 {
+        if self.tableView.enclosingScrollView?.verticalScroller?.floatValue ?? 0 == 1.0 {
             
             return true
         }
